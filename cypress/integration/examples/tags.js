@@ -5,7 +5,7 @@ context('Playground', () => {
   
   it('Tests new Modal', { tags: 'newModal' }, () => {
 
-    login("e2eUserEverythingOnSandbox@mailinator.com", "@llFlags0nSandbox");
+    login("username1", "password1");
     goToDiagram();
 
     cy.get(".new-diagram-name__button").click();
@@ -17,7 +17,7 @@ context('Playground', () => {
 
   it('Tests old Modal', { tags: 'oldModal' }, () => {
 
-    login("e2eUserProdFlagsOn@mailinator.com", "test123");
+    login("username2", "password2");
     goToDiagram();
 
     cy.get(".new-diagram-name__button").click();
