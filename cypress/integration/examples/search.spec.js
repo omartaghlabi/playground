@@ -1,6 +1,6 @@
 context('Playground', () => {
   beforeEach(() => {
-    cy.visit('https://www.google.com/').debug();
+    cy.visit('https://www.google.com/');
   })
   
   it('Google search Cypress', () => {
